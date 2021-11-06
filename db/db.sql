@@ -13,6 +13,6 @@ INSERT INTO employees values
     (2, 'Joe McMilan', 45000),
     (3, 'John Carter', 75000);
     
+SELECT * FROM employees;
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
 flush privileges;
-SELECT * FROM employees;
